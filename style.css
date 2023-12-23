@@ -1,0 +1,139 @@
+/* Set default font family and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Style the header */
+header {
+    background-color: #0077be;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Style the main section */
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Style the individual sections */
+section {
+    width: 30%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Style the section titles */
+section h1, section h2 {
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* Style the search form */
+section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+section label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+section input[type="text"] {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+section input[type="submit"] {
+    font-size: 16px;
+    background-color: #0077be;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the link in the notice section */
+section a {
+    color: #0077be;
+}
+
+/* Add hover effect to links */
+a:hover {
+    text-decoration: underline;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+/* Style the search results section */
+section {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Style the search results table */
+table.result-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table.result-table th, table.result-table td {
+    text-align: left;
+    padding: 8px;
+}
+
+table.result-table th {
+    background-color: #0077be;
+    color: #fff;
+}
+
+table.result-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style the search form */
+form {
+    display: flex;
+    align-items: center;
+}
+
+form label {
+    margin-right: 10px;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #0077be;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #005fa6;
+}
